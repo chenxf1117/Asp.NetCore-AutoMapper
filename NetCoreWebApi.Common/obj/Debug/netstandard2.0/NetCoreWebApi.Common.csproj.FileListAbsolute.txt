@@ -1,0 +1,9 @@
+E:\ProjectTest\NetCoreWebApi\NetCoreWebApi.Common\bin\Debug\netstandard2.0\NetCoreWebApi.Common.deps.json
+E:\ProjectTest\NetCoreWebApi\NetCoreWebApi.Common\bin\Debug\netstandard2.0\NetCoreWebApi.Common.dll
+E:\ProjectTest\NetCoreWebApi\NetCoreWebApi.Common\obj\Debug\netstandard2.0\NetCoreWebApi.Common.AssemblyInfoInputs.cache
+E:\ProjectTest\NetCoreWebApi\NetCoreWebApi.Common\obj\Debug\netstandard2.0\NetCoreWebApi.Common.AssemblyInfo.cs
+E:\ProjectTest\NetCoreWebApi\NetCoreWebApi.Common\bin\Debug\netstandard2.0\NetCoreWebApi.Common.pdb
+E:\ProjectTest\NetCoreWebApi\NetCoreWebApi.Common\obj\Debug\netstandard2.0\NetCoreWebApi.Common.dll
+E:\ProjectTest\NetCoreWebApi\NetCoreWebApi.Common\obj\Debug\netstandard2.0\NetCoreWebApi.Common.pdb
+E:\ProjectTest\NetCoreWebApi\NetCoreWebApi.Common\obj\Debug\netstandard2.0\NetCoreWebApi.Common.csproj.CoreCompileInputs.cache
+E:\ProjectTest\NetCoreWebApi\NetCoreWebApi.Common\obj\Debug\netstandard2.0\NetCoreWebApi.Common.csprojAssemblyReference.cache

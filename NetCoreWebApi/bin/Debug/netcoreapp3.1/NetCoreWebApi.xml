@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetCoreWebApi</name>
+    </assembly>
+    <members>
+        <member name="T:NetCoreWebApi.Controllers.OrderController">
+            <summary>
+            订单
+            </summary>
+        </member>
+        <member name="M:NetCoreWebApi.Controllers.OrderController.Query">
+            <summary>
+            订单查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NetCoreWebApi.Controllers.OrderController.QueryItem">
+            <summary>
+            订单查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NetCoreWebApi.Controllers.OrderController.QueryBatch">
+            <summary>
+            订单查询
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

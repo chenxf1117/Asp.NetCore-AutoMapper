@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetCoreWebApi.Model</name>
+    </assembly>
+    <members>
+        <member name="P:NetCoreWebApi.Model.AutoMapper.TypeMapperAttribute.SourceType">
+            <summary>
+            源类型
+            </summary>
+        </member>
+        <member name="P:NetCoreWebApi.Model.AutoMapper.PropertyMapperAttribute.SourceName">
+            <summary>
+            属性名称
+            </summary>
+        </member>
+        <member name="P:NetCoreWebApi.Model.AutoMapper.PropertyMapperAttribute.SourceDataType">
+            <summary>
+            数据类型
+            </summary>
+        </member>
+        <member name="T:NetCoreWebApi.Model.AutoMapper.OrderMapperProfile">
+            <summary>
+            映射配置
+            </summary>
+        </member>
+        <member name="T:NetCoreWebApi.Model.AutoMapper.FormatConvert">
+            <summary>
+            DateTime映射到String
+            </summary>
+        </member>
+        <member name="T:NetCoreWebApi.Model.DBModel.Order">
+            <summary>
+            订单表
+            </summary>
+        </member>
+        <member name="P:NetCoreWebApi.Model.DBModel.Order.Id">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:NetCoreWebApi.Model.DBModel.Order.Name">
+            <summary>
+            订单名称
+            </summary>
+        </member>
+        <member name="P:NetCoreWebApi.Model.DBModel.Order.Price">
+            <summary>
+            价格
+            </summary>
+        </member>
+        <member name="T:NetCoreWebApi.Model.DBModel.OrderItem">
+            <summary>
+            订单子表
+            </summary>
+        </member>
+        <member name="P:NetCoreWebApi.Model.DBModel.OrderItem.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:NetCoreWebApi.Model.OrderDTO">
+            <summary>
+            订单映射模型
+            </summary>
+        </member>
+        <member name="P:NetCoreWebApi.Model.OrderDTO.OrderName">
+            <summary>
+            订单名称
+            </summary>
+        </member>
+        <member name="T:NetCoreWebApi.Model.OrderItemDTO">
+            <summary>
+            订单子表映射模型
+            </summary>
+        </member>
+        <member name="P:NetCoreWebApi.Model.OrderItemDTO.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+    </members>
+</doc>
