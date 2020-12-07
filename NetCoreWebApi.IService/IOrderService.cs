@@ -13,5 +13,7 @@ namespace NetCoreWebApi.IService
         Task<List<OrderItemDTO>> QueryItem();
 
         Task<List<OrderBatchDTO>> QueryBatch();
+
+        Task<List<OrderItemBatchDTO>> QueryItemBatch();
     }
 }

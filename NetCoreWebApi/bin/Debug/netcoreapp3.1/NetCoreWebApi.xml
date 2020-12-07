@@ -23,7 +23,13 @@
         </member>
         <member name="M:NetCoreWebApi.Controllers.OrderController.QueryBatch">
             <summary>
-            订单查询
+            订单查询--动态映射
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NetCoreWebApi.Controllers.OrderController.QueryItemBatch">
+            <summary>
+            子订单查询--动态映射
             </summary>
             <returns></returns>
         </member>

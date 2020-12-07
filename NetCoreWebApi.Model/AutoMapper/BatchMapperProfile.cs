@@ -53,7 +53,7 @@ namespace NetCoreWebApi.Model.AutoMapper
     }
 
     //AttributeUsage用与指定声明的特性的使用范围  
-    [AttributeUsage(AttributeTargets.Class, Inherited = true)]
+    [AttributeUsage(AttributeTargets.Class| AttributeTargets.Class, Inherited = true)]
     public class TypeMapperAttribute : Attribute
     {
         /// <summary>
@@ -78,6 +78,9 @@ namespace NetCoreWebApi.Model.AutoMapper
         public Type SourceDataType { get; set; }
     }
 
+    /// <summary>
+    /// DateTime映射到String
+    /// </summary>
     public class FormatBatchConvert : IValueConverter<DateTime, string>
     {
         public string Convert(DateTime sourceMember, ResolutionContext context)

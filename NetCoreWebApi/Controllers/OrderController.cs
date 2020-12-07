@@ -45,13 +45,23 @@ namespace NetCoreWebApi.Controllers
         }
 
         /// <summary>
-        /// 订单查询
+        /// 订单查询--动态映射
         /// </summary>
         /// <returns></returns>
         [HttpGet]
         public async Task<List<OrderBatchDTO>> QueryBatch()
         {
             return await service.QueryBatch();
+        }
+
+        /// <summary>
+        /// 子订单查询--动态映射
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public async Task<List<OrderItemBatchDTO>> QueryItemBatch()
+        {
+            return await service.QueryItemBatch();
         }
     }
 }

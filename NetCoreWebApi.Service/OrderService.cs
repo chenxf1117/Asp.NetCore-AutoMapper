@@ -45,10 +45,25 @@ namespace NetCoreWebApi.Service
             return await Task.FromResult(orderDtoList);
         }
 
+        /// <summary>
+        /// 批量动态映射1
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<OrderBatchDTO>> QueryBatch()
         {
             var orderList = await dBContext.DB.Queryable<Order>().ToListAsync();
             var orderDtoList = mapper.Map<List<OrderBatchDTO>>(orderList);
+            return await Task.FromResult(orderDtoList);
+        }
+
+        /// <summary>
+        /// 批量动态映射2
+        /// </summary>
+        /// <returns></returns>
+        public async Task<List<OrderItemBatchDTO>> QueryItemBatch()
+        {
+            var orderList = await dBContext.DB.Queryable<OrderItem>().ToListAsync();
+            var orderDtoList = mapper.Map<List<OrderItemBatchDTO>>(orderList);
             return await Task.FromResult(orderDtoList);
         }
     }
